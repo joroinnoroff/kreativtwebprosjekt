@@ -1,0 +1,184 @@
+{
+  "movies": [
+    {
+      "name": "Inception",
+      "genre": "Science Fiction",
+      "releaseDate": "2010-07-16",
+      "imageUrl": "https://m.media-amazon.com/images/I/51v5Z8TO6LL._AC_.jpg"
+    },
+    {
+      "name": "The Dark Knight",
+      "genre": "Action",
+      "releaseDate": "2008-07-18",
+      "imageUrl": "https://m.media-amazon.com/images/I/51EbS2Nn8QL._AC_.jpg"
+    },
+    {
+      "name": "Forrest Gump",
+      "genre": "Drama",
+      "releaseDate": "1994-07-06",
+      "imageUrl": "https://m.media-amazon.com/images/I/51lQ+Yw4wsL._AC_.jpg"
+    },
+    {
+      "name": "The Matrix",
+      "genre": "Science Fiction",
+      "releaseDate": "1999-03-31",
+      "imageUrl": "https://m.media-amazon.com/images/I/51EG732BV3L._AC_.jpg"
+    },
+    {
+      "name": "The Godfather",
+      "genre": "Crime",
+      "releaseDate": "1972-03-24",
+      "imageUrl": "https://m.media-amazon.com/images/I/41+FQrwr0hL._AC_.jpg"
+    },
+    {
+      "name": "Pulp Fiction",
+      "genre": "Crime",
+      "releaseDate": "1994-10-14",
+      "imageUrl": "https://m.media-amazon.com/images/I/51ElU3tbZVL._AC_.jpg"
+    },
+    {
+      "name": "The Shawshank Redemption",
+      "genre": "Drama",
+      "releaseDate": "1994-09-23",
+      "imageUrl": "https://m.media-amazon.com/images/I/51NiGlE0uSL._AC_.jpg"
+    },
+    {
+      "name": "Fight Club",
+      "genre": "Drama",
+      "releaseDate": "1999-10-15",
+      "imageUrl": "https://m.media-amazon.com/images/I/51k4d1O69bL._AC_.jpg"
+    },
+    {
+      "name": "The Lord of the Rings: The Fellowship of the Ring",
+      "genre": "Fantasy",
+      "releaseDate": "2001-12-19",
+      "imageUrl": "https://m.media-amazon.com/images/I/51M2cPOa1HL._AC_.jpg"
+    },
+    {
+      "name": "Star Wars: A New Hope",
+      "genre": "Science Fiction",
+      "releaseDate": "1977-05-25",
+      "imageUrl": "https://m.media-amazon.com/images/I/51wVwDbjRBL._AC_.jpg"
+    },
+    {
+      "name": "The Lion King",
+      "genre": "Animation",
+      "releaseDate": "1994-06-24",
+      "imageUrl": "https://m.media-amazon.com/images/I/71F3R7mHqNL._AC_.jpg"
+    },
+    {
+      "name": "Jurassic Park",
+      "genre": "Science Fiction",
+      "releaseDate": "1993-06-11",
+      "imageUrl": "https://m.media-amazon.com/images/I/51xo8WepytL._AC_.jpg"
+    },
+    {
+      "name": "Titanic",
+      "genre": "Romance",
+      "releaseDate": "1997-12-19",
+      "imageUrl": "https://m.media-amazon.com/images/I/61M9OUsTh5L._AC_.jpg"
+    },
+    {
+      "name": "Gladiator",
+      "genre": "Action",
+      "releaseDate": "2000-05-05",
+      "imageUrl": "https://m.media-amazon.com/images/I/51+vFnpFgNL._AC_.jpg"
+    },
+    {
+      "name": "Interstellar",
+      "genre": "Science Fiction",
+      "releaseDate": "2014-11-07",
+      "imageUrl": "https://m.media-amazon.com/images/I/91D7n0oW9cL._AC_SY679_.jpg"
+    },
+    {
+      "name": "The Avengers",
+      "genre": "Action",
+      "releaseDate": "2012-05-04",
+      "imageUrl": "https://m.media-amazon.com/images/I/91gKWeBNykL._AC_SL1500_.jpg"
+    },
+    {
+      "name": "The Departed",
+      "genre": "Crime",
+      "releaseDate": "2006-10-06",
+      "imageUrl": "https://m.media-amazon.com/images/I/61LzCBodVcL._AC_.jpg"
+    },
+    {
+      "name": "The Social Network",
+      "genre": "Drama",
+      "releaseDate": "2010-10-01",
+      "imageUrl": "https://m.media-amazon.com/images/I/61qRuKv9mZL._AC_SL1000_.jpg"
+    },
+    {
+      "name": "Mad Max: Fury Road",
+      "genre": "Action",
+      "releaseDate": "2015-05-15",
+      "imageUrl": "https://m.media-amazon.com/images/I/81X7h8kGQHL._AC_SY679_.jpg"
+    },
+    {
+      "name": "Whiplash",
+      "genre": "Drama",
+      "releaseDate": "2014-10-10",
+      "imageUrl": "https://m.media-amazon.com/images/I/61qjX-psUOL._AC_SL1000_.jpg"
+    },
+    {
+      "name": "Spider-Man: Into the Spider-Verse",
+      "genre": "Animation",
+      "releaseDate": "2018-12-14",
+      "imageUrl": "https://m.media-amazon.com/images/I/71R39GUs72L._AC_SY679_.jpg"
+    },
+    {
+      "name": "Coco",
+      "genre": "Animation",
+      "releaseDate": "2017-11-22",
+      "imageUrl": "https://m.media-amazon.com/images/I/81U4rQDb37L._AC_SL1500_.jpg"
+    },
+    {
+      "name": "Parasite",
+      "genre": "Thriller",
+      "releaseDate": "2019-11-08",
+      "imageUrl": "https://m.media-amazon.com/images/I/71Zt4S4Gg3L._AC_SY679_.jpg"
+    },
+    {
+      "name": "Avengers: Endgame",
+      "genre": "Action",
+      "releaseDate": "2019-04-26",
+      "imageUrl": "https://m.media-amazon.com/images/I/91B9dZpHc9L._AC_SL1500_.jpg"
+    },
+    {
+      "name": "The Irishman",
+      "genre": "Crime",
+      "releaseDate": "2019-11-27",
+      "imageUrl": "https://m.media-amazon.com/images/I/71A+2XL2D3L._AC_SL1500_.jpg"
+    },
+    {
+      "name": "La La Land",
+      "genre": "Musical",
+      "releaseDate": "2016-12-09",
+      "imageUrl": "https://m.media-amazon.com/images/I/81pRhLCtk3L._AC_SL1500_.jpg"
+    },
+    {
+      "name": "Django Unchained",
+      "genre": "Western",
+      "releaseDate": "2012-12-25",
+      "imageUrl": "https://m.media-amazon.com/images/I/51chLR5+xRL._AC_.jpg"
+    },
+    {
+      "name": "The Grand Budapest Hotel",
+      "genre": "Comedy",
+      "releaseDate": "2014-03-28",
+      "imageUrl": "https://m.media-amazon.com/images/I/81gJk96dyFL._AC_SL1500_.jpg"
+    },
+    {
+      "name": "A Quiet Place",
+      "genre": "Horror",
+      "releaseDate": "2018-04-06",
+      "imageUrl": "https://m.media-amazon.com/images/I/81YB+Jp9KOL._AC_SL1500_.jpg"
+    },
+    {
+      "name": "Blade Runner 2049",
+      "genre": "Science Fiction",
+      "releaseDate": "2017-10-06",
+      "imageUrl": "https://m.media-amazon.com/images/I/81cPgZ1UUL._AC_SL1500_.jpg"
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #E6E6F2;
+
+
+
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  padding: 1rem;
+
+}
+
+.Nav-Container {
+  margin-top: 1rem;
+
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.Nav-Container button {
+  font-size: 1.5rem;
+}
+
+.LOGO {
+  font-size: 2vw;
+}
+
+.Nav-Container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button,
+a {
+  border: none;
+  background-color: blue;
+  color: rgb(247, 236, 236);
+  width: 120px;
+  height: 42px;
+  border-radius: 9999px;
+  opacity: .85;
+}
+
+button,
+a:hover {
+  opacity: 1;
+  transition: all ease-in-out 20ms;
+  cursor: pointer;
+}
+
+.movies-holder {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto);
+  gap: 2rem;
+  padding: 20px;
+}
+
+.wrapper {
+  margin-top: 1rem;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3vw;
+  max-width: 1228px;
+  padding: 2rem;
+
+}
+
+.wrapper h1 {
+  border-bottom: 0.5px solid blue;
+
+  margin: auto;
+  padding-bottom: 1rem;
+  color: #000;
+
+
+
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.genre-pills {
+
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+
+}
+
+.genre-pills span {
+  font-size: 28px;
+  border: 0.75px solid;
+  padding: 0.75rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info {
+  opacity: 0;
+  flex-direction: column;
+
+}
+
+img {
+  border-radius: 10px;
+}
+
+.Card img {
+  width: 240px;
+
+  cursor: pointer;
+}
+
+.Card:hover .info {
+  opacity: 1;
+
+}
+
+.fa-chart-line {
+  position: absolute;
+  bottom: -12%;
+}
+
+#audio-controls {
+  display: none;
+}
+
+
+:target #audio-controls {
+  display: block;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.IMBD img {
+  width: 80px;
+
+}
+
+.IMBD a {
+  background-color: transparent;
+}
+
+section p {
+  font-size: 38px;
+  width: 98%;
+
+  color: rgb(12, 15, 33);
+}
+
+span {
+  color: rgb(11, 31, 134);
+}
+
+.facts-container {
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.facts-container h2 {
+  position: absolute;
+  opacity: 0;
+  animation: fade-in-out 28s infinite;
+  text-align: center;
+  width: 100%;
+
+}
+
+
+
+.facts-container h2:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.facts-container h2:nth-child(2) {
+  animation-delay: 4s;
+}
+
+.facts-container h2:nth-child(3) {
+  animation-delay: 8s;
+}
+
+.facts-container h2:nth-child(4) {
+  animation-delay: 12s;
+}
+
+.facts-container h2:nth-child(5) {
+  animation-delay: 16s;
+}
+
+.facts-container h2:nth-child(6) {
+  animation-delay: 20s;
+}
+
+.facts-container h2:nth-child(7) {
+  animation-delay: 24s;
+}
+
+@keyframes fade-in-out {
+
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  10%,
+  90% {
+    opacity: 1;
+  }
+}
+
+.right img {
+  width: 400px;
+}
+
+.bars-container {
+  display: flex;
+  gap: 10px;
+}
+
+.bars-container div {
+  width: 20px;
+  height: 100px;
+  background-color: #5DADE2;
+
+  animation: pulse 1s infinite ease-in-out;
+}
+
+.bars-container div:nth-child(1) {
+  background-color: #85C1E9;
+
+  animation-delay: 0s;
+}
+
+.bars-container div:nth-child(2) {
+  background-color: #D6EAF8;
+
+  animation-delay: 0.1s;
+}
+
+.bars-container div:nth-child(3) {
+  background-color: #AED6F1;
+
+  animation-delay: 0.2s;
+}
+
+.bars-container div:nth-child(4) {
+  background-color: #D4E6F1;
+
+  animation-delay: 0.3s;
+}
+
+.bars-container div:nth-child(5) {
+  background-color: #F0F3F4;
+
+  animation-delay: 0.4s;
+}
+
+.bars-container div:nth-child(6) {
+  background-color: #A9CCE3;
+
+  animation-delay: 0.5s;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+
+  50% {
+    transform: scaleY(1.5);
+  }
+}
+
+
+
+
+@media screen and (max-width: 1020px) {
+
+  .LOGO {
+    font-size: 4.7vw;
+  }
+
+  .right img {
+    width: 120px;
+  }
+
+  .movies-holder {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
